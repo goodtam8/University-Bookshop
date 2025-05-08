@@ -1,0 +1,13 @@
+Drop table Students cascade constraint;
+Drop table Books cascade constraint;
+Drop table order_placed cascade constraint;
+Drop table bookorder_hv cascade constraint;
+Drop table hv cascade  constraint;
+Drop trigger successinsert;
+Drop trigger successdelete;
+Drop trigger totalsum_trigger;
+Drop trigger check_order_cancellation;
+Drop trigger day7;
+Drop trigger out_standing_trigger;
+Drop trigger order_placed_trigger;
+Drop trigger card_constraint;
